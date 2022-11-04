@@ -48,6 +48,7 @@ public class Homepagetestcases {
 		SoftAssert softassert=new SoftAssert();
 		softassert.assertEquals(homepage.getLoginsuccessfullymsg().getText(),"Login Successfully");
 		UtilityMethods.takeScreenshot(driver);
+		System.out.println("test case starting");
 	}
 	@Test
 	public void verifyregistration() {
